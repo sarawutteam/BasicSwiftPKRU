@@ -14,8 +14,28 @@ strName = "Nopita"
 //Inplcit Variable Type let คือการประกาศค่าคงที่ ที่ไม่สามารถแก้ใขได้
 
 let strSurname = "ABC"
-//strSurname = "DEF"
+//strSurname = "DEF" Error
 
+//Integer
+let inNumber = 123
+//inNumber = 456
+
+//Double
+let douNumber = 3.1416
+
+//boolean
+var bolStatus = true
+bolStatus = false
+
+//Explicit คือการกำหนด data Type ==> Variable
+let strStudent: String = "Somchai"
+
+let inNumner2: Int = 1 //ถ้าเป็นตัวเลขไม่ต้องใส่ฟันหนู
+
+var douNumber2: Double = 123.456 // double คือตัวเลขที่สามารถที่เศษได้
+douNumber2 = 456.34 //สามารถแก้ใขได้เพราะเป็นแบบ var 
+
+let bolStatus2: Bool = false 
 
 
 
