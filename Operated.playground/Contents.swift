@@ -13,3 +13,17 @@ let intAnswer = intNewNumber! + intNumber
 
 let intAnswer2 = intAnswer/intNewNumber!
 
+let strName = "Sarawut"
+let strSurName = "Keereedet"
+let strSpace = " "
+
+let strGeneral = strName + strSpace + strSurName
+
+print(strGeneral)
+
+let douNumber1 = 12.34
+let douNumber2 = 10.5
+
+let douAnswer = douNumber1 + douNumber2
+print("คำตอบของ \(douNumber1)+ \(douNumber2) + มีค่าเท่ากับ \(douAnswer)")
+		
